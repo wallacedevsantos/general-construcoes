@@ -12,16 +12,16 @@ const Footer = () => {
             {/* Company Info */}
             <div className="lg:col-span-2">
               <div className="mb-6">
-                <img 
-                  src={`${import.meta.env.BASE_URL}lovable-uploads/fe934f48-b0db-4a5f-aa80-f5d0fed0a611.png`} 
-                  alt="General Construções e Reformas" 
+                <img
+                  src={`${import.meta.env.BASE_URL}lovable-uploads/fe934f48-b0db-4a5f-aa80-f5d0fed0a611.png`}
+                  alt="General Construções e Reformas"
                   className="h-16 w-auto mb-4"
                 />
               </div>
-              
+
               <p className="text-primary-foreground/80 mb-6 max-w-md leading-relaxed">
-                Há mais de 30 anos transformando sonhos em realidade através da experiência, 
-                qualidade e compromisso do José Nilson "General" dos Santos.
+                Há mais de 30 anos transformando sonhos em realidade através da experiência,
+                qualidade e compromisso do General.
               </p>
 
               <div className="space-y-3">
@@ -83,9 +83,9 @@ const Footer = () => {
           <div className="text-primary-foreground/60 mb-4 md:mb-0">
             <p>&copy; {new Date().getFullYear()} General Construções e Reformas. Todos os direitos reservados.</p>
           </div>
-          
+
           <div className="text-primary-foreground/60">
-            <p>José Nilson dos Santos - 30 anos de experiência</p>
+            <p>General Construções e Reformas - 30 anos de experiência</p>
           </div>
         </div>
       </div>

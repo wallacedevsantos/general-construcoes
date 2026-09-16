@@ -12,7 +12,7 @@ const AboutSection = () => {
             A História do <span className="text-logo-orange">General</span>
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed px-2">
-            Conheça a trajetória de três décadas que transformou José Nilson dos Santos no profissional mais respeitado da região
+            Conheça a trajetória de três décadas que transformou Nilson Santos no profissional mais respeitado da região
           </p>
         </div>
 
@@ -23,11 +23,11 @@ const AboutSection = () => {
             <div className="aspect-square bg-gradient-to-br from-logo-blue/20 to-logo-orange/20 rounded-2xl md:rounded-3xl flex items-center justify-center text-foreground relative overflow-hidden shadow-xl md:shadow-2xl">
               <div className="text-center z-10 p-4">
                 <img
-                src={`${import.meta.env.BASE_URL}lovable-uploads/perfil_general_construcoes.png`}
-                alt="José Nilson dos Santos"
-                className="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full object-cover mx-auto mb-4 md:mb-6 shadow-xl"
-              />
-                <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-2">José Nilson dos Santos</h3>
+                  src={`${import.meta.env.BASE_URL}lovable-uploads/perfil_general_construcoes.png`}
+                  alt="Nilson Santos"
+                  className="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full object-cover mx-auto mb-4 md:mb-6 shadow-xl"
+                />
+                <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-2">Nilson Santos</h3>
                 <p className="text-base sm:text-lg text-muted-foreground mb-3 md:mb-4">Fundador & "General"</p>
                 <div className="flex items-center justify-center space-x-2">
                   <Hammer className="w-4 h-4 md:w-5 md:h-5 text-logo-orange" />
@@ -45,17 +45,17 @@ const AboutSection = () => {
             <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-foreground leading-tight">
               Da paixão pela Construção ao Reconhecimento Profissional
             </h3>
-            
+
             <div className="space-y-4 md:space-y-6 text-sm sm:text-base md:text-lg text-muted-foreground leading-relaxed">
               <p>
-                José Nilson dos Santos, o "General", construiu uma sólida reputação em mais de 30 anos na construção civil, 
+                Nilson Santos, o "General", construiu uma sólida reputação em mais de 30 anos na construção civil,
                 transformando projetos em realidade com liderança e atenção aos detalhes.
               </p>
-              
+
               <p>
-                Sua empresa, a <strong>General Construções e Reformas</strong>, é hoje sinônimo de 
-                <strong className="text-logo-orange"> qualidade garantida</strong> e 
-                <strong className="text-logo-blue"> confiabilidade absoluta</strong> em toda a Grande São Paulo, 
+                Sua empresa, a <strong>General Construções e Reformas</strong>, é hoje sinônimo de
+                <strong className="text-logo-orange"> qualidade garantida</strong> e
+                <strong className="text-logo-blue"> confiabilidade absoluta</strong> em toda a Grande São Paulo,
                 baseada em seriedade, pontualidade e compromisso com a satisfação do cliente.
               </p>
             </div>
@@ -64,7 +64,7 @@ const AboutSection = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4 pt-4 md:pt-6">
               {[
                 { icon: Award, text: 'Mais de 500 Obras Concluídas' },
-                { icon: Users, text: '100% de Clientes Satisfeitos' }, 
+                { icon: Users, text: '100% de Clientes Satisfeitos' },
                 { icon: Clock, text: 'Pontualidade Rigorosa' },
                 { icon: Heart, text: 'Qualidade Garantida' }
               ].map((achievement, index) => (
@@ -86,7 +86,7 @@ const AboutSection = () => {
               </div>
               <h4 className="text-lg sm:text-xl md:text-2xl font-bold text-foreground mb-4 md:mb-6">Nossa Missão</h4>
               <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-                Transformar sonhos em realidade através de <strong>obras duráveis, bem-feitas e entregues no prazo</strong>, 
+                Transformar sonhos em realidade através de <strong>obras duráveis, bem-feitas e entregues no prazo</strong>,
                 superando expectativas com atenção aos detalhes e total foco na satisfação do cliente.
               </p>
             </CardContent>
@@ -99,7 +99,7 @@ const AboutSection = () => {
               </div>
               <h4 className="text-lg sm:text-xl md:text-2xl font-bold text-foreground mb-4 md:mb-6">Nossos Valores</h4>
               <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-                <strong>Integridade, transparência e compromisso</strong> guiam cada decisão. Mantemos comunicação clara, 
+                <strong>Integridade, transparência e compromisso</strong> guiam cada decisão. Mantemos comunicação clara,
                 orçamentos honestos e relacionamentos duradouros baseados na confiança mútua.
               </p>
             </CardContent>
@@ -112,7 +112,7 @@ const AboutSection = () => {
               </div>
               <h4 className="text-lg sm:text-xl md:text-2xl font-bold text-foreground mb-4 md:mb-6">Nosso Diferencial</h4>
               <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-                <strong>Experiência de três décadas, pontualidade rigorosa e qualidade excepcional</strong>. 
+                <strong>Experiência de três décadas, pontualidade rigorosa e qualidade excepcional</strong>.
                 Cada projeto é único e recebe atenção personalizada do planejamento à entrega final.
               </p>
             </CardContent>
