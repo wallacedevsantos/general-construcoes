@@ -26,9 +26,7 @@ const ContactSection = () => {
     reforma: 'Reforma',
     construcao: 'Construção do Zero',
     telhado: 'Telhado e Cobertura',
-    carpintaria: 'Carpintaria',
-    hidraulica: 'Reparos Hidráulicos',
-    acabamento: 'Acabamentos',
+
     outros: 'Outros',
   };
 
@@ -47,9 +45,9 @@ const ContactSection = () => {
     setIsSubmitting(true);
 
     const serviceText = serviceMap[formData.service] || formData.service; // Get the display text
-    const message = `Olá! Gostaria de solicitar um orçamento.\n\nNome: ${formData.name}\nTelefone: ${formData.phone}\nServiço: ${serviceText}\nMensagem: ${formData.message}`;
+    const message = `Olá! Gostaria de solicitar um orçamento com a General Construções e Reformas.\n\nNome: ${formData.name}\nTelefone: ${formData.phone}\nServiço: ${serviceText}\nMensagem: ${formData.message}`;
 
-    const whatsappUrl = `https://wa.me/5511946522725?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/5511978977465?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
 
     toast({
@@ -87,12 +85,12 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h3 className="font-bold text-foreground text-lg">Telefone</h3>
-                    <p className="text-muted-foreground text-base">(11) 94652-2725</p>
+                    <p className="text-muted-foreground text-base">(11) 97897-7465</p>
                   </div>
                 </div>
                 <Button
                   className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3"
-                  onClick={() => window.open('https://wa.me/5511946522725', '_blank')}
+                  onClick={() => window.open('https://wa.me/5511978977465', '_blank')}
                 >
                   Chamar no WhatsApp
                 </Button>
@@ -176,9 +174,7 @@ const ContactSection = () => {
                         <SelectItem value="reforma">Reforma</SelectItem>
                         <SelectItem value="construcao">Construção do Zero</SelectItem>
                         <SelectItem value="telhado">Telhado e Cobertura</SelectItem>
-                        <SelectItem value="carpintaria">Carpintaria</SelectItem>
-                        <SelectItem value="hidraulica">Reparos Hidráulicos</SelectItem>
-                        <SelectItem value="acabamento">Acabamentos</SelectItem>
+
                         <SelectItem value="outros">Outros</SelectItem>
                       </SelectContent>
                     </Select>

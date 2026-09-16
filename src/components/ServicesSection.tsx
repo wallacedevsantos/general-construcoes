@@ -17,7 +17,7 @@ const ServicesSection = () => {
     {
       icon: Home,
       title: "Reformas Completas",
-      description: "Transformação total de ambientes residenciais e comerciais com planejamento detalhado, acompanhamento profissional e acabamento impecável.",
+      description: "Transformação total de ambientes residenciais e comerciais com planejamento detalhado, acompanhamento profissional e qualidade impecável.",
       features: ["Cozinhas Modernas", "Banheiros Luxuosos", "Salas Integradas", "Estabelecimentos Comerciais"],
       gradient: "from-logo-orange/10 to-logo-orange/5",
       highlight: "Mais Procurado"
@@ -25,8 +25,8 @@ const ServicesSection = () => {
     {
       icon: HardHat,
       title: "Construção do Zero",
-      description: "Projetos de construção completa desde a fundação até o acabamento final, com supervisão técnica em todas as etapas e garantia de qualidade.",
-      features: ["Fundação Sólida", "Estrutura Reforçada", "Cobertura Durável", "Acabamento Premium"],
+      description: "Projetos de construção completa desde a fundação até a entrega final, com supervisão técnica em todas as etapas e garantia de qualidade.",
+      features: ["Fundação Sólida", "Estrutura Reforçada", "Cobertura Durável"],
       gradient: "from-logo-blue/10 to-logo-blue/5",
       highlight: "Especialidade"
     },
@@ -36,27 +36,6 @@ const ServicesSection = () => {
       description: "Instalação, manutenção e reparo de telhados com materiais de primeira qualidade, garantindo proteção duradoura contra intempéries.",
       features: ["Telhado Colonial", "Cobertura Moderna", "Sistema de Calhas", "Estruturas de Madeira"],
       gradient: "from-logo-orange/10 to-logo-orange/5"
-    },
-    {
-      icon: Hammer,
-      title: "Carpintaria Especializada",
-      description: "Serviços artesanais em madeira com técnicas tradicionais e modernas, criando soluções personalizadas e funcionais para seu espaço.",
-      features: ["Portas Sob Medida", "Janelas Artesanais", "Móveis Planejados", "Pergolados e Decks"],
-      gradient: "from-logo-blue/10 to-logo-blue/5"
-    },
-    {
-      icon: Wrench,
-      title: "Hidráulica e Elétrica",
-      description: "Instalações e manutenções hidráulicas e elétricas com técnicas modernas, materiais certificados e atendimento de emergência disponível.",
-      features: ["Instalações Novas", "Reparo de Vazamentos", "Modernização Elétrica", "Emergências 24h"],
-      gradient: "from-logo-orange/10 to-logo-orange/5"
-    },
-    {
-      icon: PaintBucket,
-      title: "Acabamentos Premium",
-      description: "Pintura profissional, aplicação de revestimentos e texturas especiais que transformam ambientes com durabilidade e beleza excepcionais.",
-      features: ["Pintura Residencial", "Revestimentos Especiais", "Texturas Decorativas", "Detalhes Artísticos"],
-      gradient: "from-logo-blue/10 to-logo-blue/5"
     }
   ];
 
@@ -171,7 +150,7 @@ const ServicesSection = () => {
               size="lg" 
               variant="outline" 
               className="w-full sm:w-auto border-2 border-logo-blue text-logo-blue hover:bg-logo-blue hover:text-white px-6 sm:px-8 md:px-10 py-4 md:py-6 text-base md:text-lg font-semibold transition-all duration-300 touch-manipulation"
-              onClick={() => window.open('https://wa.me/5511946522725', '_blank')}
+              onClick={() => window.open('https://wa.me/5511978977465', '_blank')}
             >
               Conversar no WhatsApp
             </Button>

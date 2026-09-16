@@ -59,7 +59,7 @@ const HeroSection = () => {
                 size="sm" 
                 variant="outline" 
                 className="w-full sm:w-auto border-2 border-logo-blue text-logo-blue hover:bg-logo-blue hover:text-white text-sm md:text-base px-4 md:px-8 py-3 md:py-4 h-auto transition-all duration-300 font-semibold touch-manipulation"
-                onClick={() => window.open('https://wa.me/5511946522725', '_blank')}
+                onClick={() => window.open('https://wa.me/5511978977465', '_blank')}
               >
                 WhatsApp Direto
               </Button>

@@ -8,8 +8,8 @@ const WhatsAppButton = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleWhatsAppClick = () => {
-    const message = "Olá! Gostaria de solicitar um orçamento para meu projeto.";
-    const whatsappUrl = `https://wa.me/5511946522725?text=${encodeURIComponent(message)}`;
+    const message = "Olá! Gostaria de solicitar um orçamento com a General Construções e Reformas.";
+    const whatsappUrl = `https://wa.me/5511978977465?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -41,7 +41,7 @@ const WhatsAppButton = () => {
           className="relative w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-green-500 hover:bg-green-600 shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-110 p-0 touch-manipulation"
         >
           <MessageCircle className="w-7 h-7 sm:w-8 sm:h-8 text-white" />
-          
+
           {/* Close button - Touch friendly */}
           <button
             onClick={handleClose}
