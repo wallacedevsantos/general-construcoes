@@ -38,6 +38,7 @@ const WhatsAppButton = () => {
           onClick={handleWhatsAppClick}
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
+          aria-label="Falar pelo WhatsApp com a General Construções"
           className="relative w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-green-500 hover:bg-green-600 shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-110 p-0 touch-manipulation"
         >
           <MessageCircle className="w-7 h-7 sm:w-8 sm:h-8 text-white" />
@@ -45,6 +46,7 @@ const WhatsAppButton = () => {
           {/* Close button - Touch friendly */}
           <button
             onClick={handleClose}
+            aria-label="Fechar botão do WhatsApp"
             className="absolute -top-1 sm:-top-2 -right-1 sm:-right-2 w-5 h-5 sm:w-6 sm:h-6 bg-gray-500 hover:bg-gray-600 rounded-full flex items-center justify-center transition-colors shadow-lg touch-manipulation"
           >
             <X className="w-2.5 h-2.5 sm:w-3 sm:h-3 text-white" />

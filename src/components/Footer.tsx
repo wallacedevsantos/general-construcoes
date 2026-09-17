@@ -14,7 +14,8 @@ const Footer = () => {
               <div className="mb-6">
                 <img
                   src={`${import.meta.env.BASE_URL}lovable-uploads/fe934f48-b0db-4a5f-aa80-f5d0fed0a611.png`}
-                  alt="General Construções e Reformas"
+                  alt="Logotipo General Construções e Reformas"
+                  loading="lazy"
                   className="h-16 w-auto mb-4"
                 />
               </div>

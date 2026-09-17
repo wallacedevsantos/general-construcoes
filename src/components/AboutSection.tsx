@@ -24,7 +24,8 @@ const AboutSection = () => {
               <div className="text-center z-10 p-4">
                 <img
                   src={`${import.meta.env.BASE_URL}lovable-uploads/perfil_general_construcoes.png`}
-                  alt="Nilson Santos"
+                  alt="Nilson Santos - Fundador da General Construções e Reformas em São Paulo"
+                  loading="lazy"
                   className="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full object-cover mx-auto mb-4 md:mb-6 shadow-xl"
                 />
                 <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-2">Nilson Santos</h3>
